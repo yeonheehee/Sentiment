@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74385580323",
+    "project_id": "sentiment-2ecb6",
+    "storage_bucket": "sentiment-2ecb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74385580323:android:f131c365a3177de62fec96",
+        "android_client_info": {
+          "package_name": "com.example.sentiment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74385580323-hitt54nl3ipv6ueb8hi7ul73anm8pivg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2XhIkUO6EMAyVSFJHnVqQ0QcZSAmExYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74385580323-hitt54nl3ipv6ueb8hi7ul73anm8pivg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

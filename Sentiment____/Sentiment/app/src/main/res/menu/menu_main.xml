@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sentiment.MainActivity">
+    <item
+        android:id="@+id/action_any1"
+        android:enabled="true"
+        android:icon="@drawable/ic_any1"
+        android:orderInCategory="100"
+        android:title="home"
+        />
+
+    <item
+        android:id="@+id/action_any2"
+        android:enabled="true"
+        android:icon="@drawable/ic_any2"
+        android:orderInCategory="100"
+        android:title="chat"
+        />
+
+    <item
+        android:id="@+id/action_any3"
+        android:enabled="true"
+        android:icon="@drawable/ic_any3"
+        android:orderInCategory="100"
+        android:title="recommend"
+        />
+</menu>

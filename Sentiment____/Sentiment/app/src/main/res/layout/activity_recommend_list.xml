@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecommendList">
+
+    <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+
+
+    <!-- android:id="@+id/fab"-->
+
+
+    <!-- android:layout_width="45dp"-->
+
+
+    <!-- android:layout_height="wrap_content"-->
+
+
+    <!-- android:layout_gravity="bottom|end"-->
+
+
+    <!-- android:layout_margin="@dimen/fab_margin"-->
+
+
+    <!-- android:contentDescription="TODO"-->
+
+
+    <!-- app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layout_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/drama_bt2"
+                    android:layout_width="93dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/tvimg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/dramachat" />
+
+                <!-- <TextView-->
+
+
+                <!-- android:layout_width="wrap_content"-->
+
+
+                <!-- android:layout_height="wrap_content"-->
+
+
+                <!-- android:layout_gravity="center"-->
+
+
+                <!-- android:fontFamily="@font/rix"-->
+
+
+                <!-- android:text="drama"-->
+
+
+                <!-- android:textColor="#C173C0"-->
+
+
+                <!-- android:textSize="20dp" />-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_goal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/movie_bt2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/movieimg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/moviechat" />
+
+                <!-- <TextView-->
+
+
+                <!-- android:layout_width="wrap_content"-->
+
+
+                <!-- android:layout_height="wrap_content"-->
+
+
+                <!-- android:layout_gravity="center"-->
+
+
+                <!-- android:fontFamily="@font/rix"-->
+
+
+                <!-- android:text="movie"-->
+
+
+                <!-- android:textColor="#C8CC61"-->
+
+
+                <!-- android:textSize="20dp" />-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_goal3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/music_bt2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/micimg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/musicchat" />
+
+                <!-- <TextView-->
+
+
+                <!-- android:layout_width="wrap_content"-->
+
+
+                <!-- android:layout_height="wrap_content"-->
+
+
+                <!-- android:layout_gravity="center"-->
+
+
+                <!-- android:fontFamily="@font/rix"-->
+
+
+                <!-- android:text="music"-->
+
+
+                <!-- android:textColor="#3FB573"-->
+
+
+                <!-- android:textSize="20dp" />-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="70dp"
+        app:itemIconTint="@android:color/black"
+        app:itemTextColor="#999999"
+        app:menu="@menu/menu_main" />
+
+</LinearLayout>

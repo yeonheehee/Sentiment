@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sentiment3">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="577dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/nanumsquare"
+                android:text=""
+                android:textColor="#28364A"
+                android:textSize="1sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/emoji_question" />
+
+            <TextView
+                android:id="@+id/http_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="-30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/emoji_group" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_move"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/clickhere" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemIconTint="@android:color/black"
+        app:itemTextColor="#999999"
+        app:menu="@menu/menu_main" />
+
+</LinearLayout>
